@@ -1,0 +1,135 @@
+/* Estilos gerais para dispositivos menores */
+@media (max-width: 767.98px) {
+    header .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .services .service-item {
+        margin-bottom: 30px;
+    }
+
+    .services img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .services h4 {
+        font-size: 18px;
+    }
+
+    .services p {
+        font-size: 14px;
+    }
+
+    .problem, .solution, .testimonials, .contact {
+        padding: 30px 20px;
+    }
+
+    .problem h3, .solution h3, .testimonials h3, .contact h3 {
+        font-size: 24px;
+    }
+
+    .problem p, .solution p, .testimonials p, .contact p {
+        font-size: 16px;
+    }
+
+    .testimonial-item {
+        padding: 20px;
+    }
+
+    .testimonial-item p {
+        font-size: 16px;
+    }
+
+    .testimonial-item cite {
+        font-size: 14px;
+    }
+
+    .contact form .form-group label {
+        font-size: 14px;
+    }
+
+    .contact form .form-group input, .contact form .form-group textarea {
+        font-size: 14px;
+    }
+
+    .contact form button {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .services img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .services h4 {
+        font-size: 20px;
+    }
+
+    .services p {
+        font-size: 16px;
+    }
+
+    .problem, .solution, .testimonials, .contact {
+        padding: 40px 30px;
+    }
+
+    .problem h3, .solution h3, .testimonials h3, .contact h3 {
+        font-size: 26px;
+    }
+
+    .problem p, .solution p, .testimonials p, .contact p {
+        font-size: 18px;
+    }
+
+    .testimonial-item {
+        padding: 30px;
+    }
+
+    .testimonial-item p {
+        font-size: 18px;
+    }
+
+    .testimonial-item cite {
+        font-size: 16px;
+    }
+
+    .contact form .form-group label {
+        font-size: 16px;
+    }
+
+    .contact form .form-group input, .contact form .form-group textarea {
+        font-size: 16px;
+    }
+
+    .contact form button {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}

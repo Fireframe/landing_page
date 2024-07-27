@@ -1,0 +1,131 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+header h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.lead1{
+    font-weight: 600;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.lead2{
+    font-size: 48px;
+    font-weight: 800;
+    color: black;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.text-center{
+    font-weight: 600;
+    color: #000;
+}
+
+.descriçao_de_serviço{
+    font-weight: 700;
+}
+
+.serviços1{
+    font-weight: 700;
+}
+
+.serviços2{
+    font-weight: 700;
+}
+
+.serviços3{
+    font-weight: 700;
+}
+
+.serviços4{
+    font-weight: 700;
+}
+
+.problem p, .solution p {
+    font-size: 18px;
+}
+
+.testimonial-item p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.testimonial-item cite {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.contact form label {
+    font-size: 16px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.contact form input, .contact form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.btn{
+    font-weight: 600;
+}
+
+.contact form button {
+    background: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #002060;
+}
+
+.direitos{
+    display: flex;
+    justify-content: left;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
